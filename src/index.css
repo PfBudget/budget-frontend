@@ -1,3 +1,39 @@
-* {
+:root{
+    --tiffany-blue: #75dddd;
+    --munsell-blue: #508991;
+    --prussian-blue: #172a3a;
+    --midnight-green: #004346;
+    --mint: #09bc8a;
+    --warm-red: #903629;
+    --primary-blue: #096cbd;
+}
+
+
+@font-face {
+    font-family: "Cera Pro";
+    src: local("Cera Pro Medium"), url("./fonts/Cera Pro Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Cera Pro Bold";
+    src: local("Cera Pro Bold"), url("./fonts/Cera Pro Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+*, *::before, *::after {
     box-sizing: border-box;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    font-family: "Cera Pro", serif;
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+
+
